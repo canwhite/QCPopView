@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F664DE731F3992C20039CC0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F664DE721F3992C20039CC0F /* main.m */; };
+		F664DE761F3992C20039CC0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F664DE751F3992C20039CC0F /* AppDelegate.m */; };
+		F664DE7C1F3992C20039CC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F664DE7A1F3992C20039CC0F /* Main.storyboard */; };
+		F664DE7E1F3992C20039CC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664DE7D1F3992C20039CC0F /* Assets.xcassets */; };
+		F664DE811F3992C20039CC0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F664DE7F1F3992C20039CC0F /* LaunchScreen.storyboard */; };
+		F664DE8C1F3992C30039CC0F /* QCPopView2017Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F664DE8B1F3992C30039CC0F /* QCPopView2017Tests.m */; };
+		F664DE971F3992C30039CC0F /* QCPopView2017UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F664DE961F3992C30039CC0F /* QCPopView2017UITests.m */; };
+		F664DEA61F3993260039CC0F /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F664DEA51F3993260039CC0F /* ExampleViewController.m */; };
+		F664DEA91F3993350039CC0F /* QCPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F664DEA81F3993350039CC0F /* QCPopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F664DE881F3992C30039CC0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F664DE661F3992C20039CC0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F664DE6D1F3992C20039CC0F;
+			remoteInfo = QCPopView2017;
+		};
+		F664DE931F3992C30039CC0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F664DE661F3992C20039CC0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F664DE6D1F3992C20039CC0F;
+			remoteInfo = QCPopView2017;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F664DE6E1F3992C20039CC0F /* QCPopView2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCPopView2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F664DE721F3992C20039CC0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F664DE741F3992C20039CC0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F664DE751F3992C20039CC0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F664DE7B1F3992C20039CC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F664DE7D1F3992C20039CC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F664DE801F3992C20039CC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F664DE821F3992C20039CC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F664DE871F3992C20039CC0F /* QCPopView2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCPopView2017Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F664DE8B1F3992C30039CC0F /* QCPopView2017Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCPopView2017Tests.m; sourceTree = "<group>"; };
+		F664DE8D1F3992C30039CC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F664DE921F3992C30039CC0F /* QCPopView2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCPopView2017UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F664DE961F3992C30039CC0F /* QCPopView2017UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCPopView2017UITests.m; sourceTree = "<group>"; };
+		F664DE981F3992C30039CC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F664DEA41F3993260039CC0F /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		F664DEA51F3993260039CC0F /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		F664DEA71F3993350039CC0F /* QCPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCPopView.h; sourceTree = "<group>"; };
+		F664DEA81F3993350039CC0F /* QCPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCPopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F664DE6B1F3992C20039CC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664DE841F3992C20039CC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664DE8F1F3992C30039CC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F664DE651F3992C20039CC0F = {
+			isa = PBXGroup;
+			children = (
+				F664DE701F3992C20039CC0F /* QCPopView2017 */,
+				F664DE8A1F3992C30039CC0F /* QCPopView2017Tests */,
+				F664DE951F3992C30039CC0F /* QCPopView2017UITests */,
+				F664DE6F1F3992C20039CC0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F664DE6F1F3992C20039CC0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F664DE6E1F3992C20039CC0F /* QCPopView2017.app */,
+				F664DE871F3992C20039CC0F /* QCPopView2017Tests.xctest */,
+				F664DE921F3992C30039CC0F /* QCPopView2017UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F664DE701F3992C20039CC0F /* QCPopView2017 */ = {
+			isa = PBXGroup;
+			children = (
+				F664DE741F3992C20039CC0F /* AppDelegate.h */,
+				F664DE751F3992C20039CC0F /* AppDelegate.m */,
+				F664DEA41F3993260039CC0F /* ExampleViewController.h */,
+				F664DEA51F3993260039CC0F /* ExampleViewController.m */,
+				F664DEA71F3993350039CC0F /* QCPopView.h */,
+				F664DEA81F3993350039CC0F /* QCPopView.m */,
+				F664DE7A1F3992C20039CC0F /* Main.storyboard */,
+				F664DE7D1F3992C20039CC0F /* Assets.xcassets */,
+				F664DE7F1F3992C20039CC0F /* LaunchScreen.storyboard */,
+				F664DE821F3992C20039CC0F /* Info.plist */,
+				F664DE711F3992C20039CC0F /* Supporting Files */,
+			);
+			path = QCPopView2017;
+			sourceTree = "<group>";
+		};
+		F664DE711F3992C20039CC0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F664DE721F3992C20039CC0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F664DE8A1F3992C30039CC0F /* QCPopView2017Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F664DE8B1F3992C30039CC0F /* QCPopView2017Tests.m */,
+				F664DE8D1F3992C30039CC0F /* Info.plist */,
+			);
+			path = QCPopView2017Tests;
+			sourceTree = "<group>";
+		};
+		F664DE951F3992C30039CC0F /* QCPopView2017UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F664DE961F3992C30039CC0F /* QCPopView2017UITests.m */,
+				F664DE981F3992C30039CC0F /* Info.plist */,
+			);
+			path = QCPopView2017UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F664DE6D1F3992C20039CC0F /* QCPopView2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F664DE9B1F3992C30039CC0F /* Build configuration list for PBXNativeTarget "QCPopView2017" */;
+			buildPhases = (
+				F664DE6A1F3992C20039CC0F /* Sources */,
+				F664DE6B1F3992C20039CC0F /* Frameworks */,
+				F664DE6C1F3992C20039CC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCPopView2017;
+			productName = QCPopView2017;
+			productReference = F664DE6E1F3992C20039CC0F /* QCPopView2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F664DE861F3992C20039CC0F /* QCPopView2017Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F664DE9E1F3992C30039CC0F /* Build configuration list for PBXNativeTarget "QCPopView2017Tests" */;
+			buildPhases = (
+				F664DE831F3992C20039CC0F /* Sources */,
+				F664DE841F3992C20039CC0F /* Frameworks */,
+				F664DE851F3992C20039CC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F664DE891F3992C30039CC0F /* PBXTargetDependency */,
+			);
+			name = QCPopView2017Tests;
+			productName = QCPopView2017Tests;
+			productReference = F664DE871F3992C20039CC0F /* QCPopView2017Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F664DE911F3992C30039CC0F /* QCPopView2017UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F664DEA11F3992C30039CC0F /* Build configuration list for PBXNativeTarget "QCPopView2017UITests" */;
+			buildPhases = (
+				F664DE8E1F3992C30039CC0F /* Sources */,
+				F664DE8F1F3992C30039CC0F /* Frameworks */,
+				F664DE901F3992C30039CC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F664DE941F3992C30039CC0F /* PBXTargetDependency */,
+			);
+			name = QCPopView2017UITests;
+			productName = QCPopView2017UITests;
+			productReference = F664DE921F3992C30039CC0F /* QCPopView2017UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F664DE661F3992C20039CC0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BoYaXun;
+				TargetAttributes = {
+					F664DE6D1F3992C20039CC0F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F664DE861F3992C20039CC0F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F664DE6D1F3992C20039CC0F;
+					};
+					F664DE911F3992C30039CC0F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F664DE6D1F3992C20039CC0F;
+					};
+				};
+			};
+			buildConfigurationList = F664DE691F3992C20039CC0F /* Build configuration list for PBXProject "QCPopView2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F664DE651F3992C20039CC0F;
+			productRefGroup = F664DE6F1F3992C20039CC0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F664DE6D1F3992C20039CC0F /* QCPopView2017 */,
+				F664DE861F3992C20039CC0F /* QCPopView2017Tests */,
+				F664DE911F3992C30039CC0F /* QCPopView2017UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F664DE6C1F3992C20039CC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664DE811F3992C20039CC0F /* LaunchScreen.storyboard in Resources */,
+				F664DE7E1F3992C20039CC0F /* Assets.xcassets in Resources */,
+				F664DE7C1F3992C20039CC0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664DE851F3992C20039CC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664DE901F3992C30039CC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F664DE6A1F3992C20039CC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664DEA91F3993350039CC0F /* QCPopView.m in Sources */,
+				F664DEA61F3993260039CC0F /* ExampleViewController.m in Sources */,
+				F664DE761F3992C20039CC0F /* AppDelegate.m in Sources */,
+				F664DE731F3992C20039CC0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664DE831F3992C20039CC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664DE8C1F3992C30039CC0F /* QCPopView2017Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664DE8E1F3992C30039CC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664DE971F3992C30039CC0F /* QCPopView2017UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F664DE891F3992C30039CC0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F664DE6D1F3992C20039CC0F /* QCPopView2017 */;
+			targetProxy = F664DE881F3992C30039CC0F /* PBXContainerItemProxy */;
+		};
+		F664DE941F3992C30039CC0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F664DE6D1F3992C20039CC0F /* QCPopView2017 */;
+			targetProxy = F664DE931F3992C30039CC0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F664DE7A1F3992C20039CC0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F664DE7B1F3992C20039CC0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F664DE7F1F3992C20039CC0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F664DE801F3992C20039CC0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F664DE991F3992C30039CC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F664DE9A1F3992C30039CC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F664DE9C1F3992C30039CC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QCPopView2017/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.com.QCPopView2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F664DE9D1F3992C30039CC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QCPopView2017/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.com.QCPopView2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F664DE9F1F3992C30039CC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QCPopView2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.com.QCPopView2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCPopView2017.app/QCPopView2017";
+			};
+			name = Debug;
+		};
+		F664DEA01F3992C30039CC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QCPopView2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.com.QCPopView2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCPopView2017.app/QCPopView2017";
+			};
+			name = Release;
+		};
+		F664DEA21F3992C30039CC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QCPopView2017UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.com.QCPopView2017UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QCPopView2017;
+			};
+			name = Debug;
+		};
+		F664DEA31F3992C30039CC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QCPopView2017UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.com.QCPopView2017UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QCPopView2017;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F664DE691F3992C20039CC0F /* Build configuration list for PBXProject "QCPopView2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664DE991F3992C30039CC0F /* Debug */,
+				F664DE9A1F3992C30039CC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F664DE9B1F3992C30039CC0F /* Build configuration list for PBXNativeTarget "QCPopView2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664DE9C1F3992C30039CC0F /* Debug */,
+				F664DE9D1F3992C30039CC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F664DE9E1F3992C30039CC0F /* Build configuration list for PBXNativeTarget "QCPopView2017Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664DE9F1F3992C30039CC0F /* Debug */,
+				F664DEA01F3992C30039CC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F664DEA11F3992C30039CC0F /* Build configuration list for PBXNativeTarget "QCPopView2017UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664DEA21F3992C30039CC0F /* Debug */,
+				F664DEA31F3992C30039CC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F664DE661F3992C20039CC0F /* Project object */;
+}
